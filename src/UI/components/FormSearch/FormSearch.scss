@@ -1,0 +1,48 @@
+.form__container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.form__search {
+    width: 50%;
+
+    &-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    &_searchName {
+        width: 100%;
+        height: 25px;
+        margin-bottom: 15px;
+        padding-left: 10px;
+        border-radius: 5px;
+    }
+
+    &_selects {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+
+        div {
+            display: flex;
+            flex-direction: column;
+        }
+
+    }
+
+    &_select {
+        width: 15vw;
+        height: 25px;
+        border-radius: 5px;
+    }
+
+    &_label {
+        color: #fff;
+        margin-right: 5px;
+    }
+
+}

@@ -1,0 +1,51 @@
+@import '../../../styles/variables.scss';
+
+.info {
+    &__container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 250px;
+    }
+
+    &__books {
+
+        img {
+            width: 100%;
+            box-shadow:
+                -15px -15px 2px -5px rgba(200, 170, 186, 0.5),
+                -15px 15px 2px -5px rgba(130, 149, 218, 0.5),
+                15px -15px 2px -5px rgba(216, 146, 146, 0.5),
+                15px 15px 2px -5px rgba(147, 202, 154, 0.5);
+        }
+    }
+
+    &__descr {
+        width: 50%;
+        margin-left: 25px;
+
+        &_category {
+            color: $shadow-img-color;
+            text-decoration: underline;
+            font-size: 14px;
+        }
+
+        &_title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        &_author {
+            color: $shadow-img-color;
+            font-size: 14px;
+            margin-bottom: 25px;
+            font-style: italic;
+        }
+
+        &_text {
+            font-size: 14px;
+
+        }
+    }
+}

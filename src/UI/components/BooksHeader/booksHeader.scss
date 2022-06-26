@@ -1,0 +1,18 @@
+.header {
+    width: 100%;
+    height: 350px;
+    padding-top: 50px;
+    background: url('../../../resources/img/bcg_header.jpg') center/cover no-repeat;
+
+    &__title {
+        color: #fff;
+        font-size: 45px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    &__forms {
+        margin: 0 auto;
+    }
+}

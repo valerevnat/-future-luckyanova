@@ -1,0 +1,74 @@
+@import '../../../styles/variables.scss';
+
+.books {
+    &__content {
+        max-width: 80%;
+        max-height: 95%;
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 35px auto 0 auto;
+    }
+
+    &__amount {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        column-gap: 25px;
+        row-gap: 30px;
+        margin-top: 25px;
+        list-style-type: none;
+    }
+
+    &__item {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        background-color: $bcg-card-color;
+        box-shadow: 5px 5px 10px $bcg-card-color;
+        cursor: pointer;
+    }
+
+    &__img {
+        display: flex;
+        justify-content: center;
+        height: 65%;
+
+        img {
+            box-shadow: 5px 5px 10px $shadow-img-color;
+
+        }
+
+        &:hover {
+            transform: scale3d();
+        }
+    }
+
+    &__categories {
+        margin-top: 15px;
+        font-size: 15px;
+        color: rgba(0, 0, 0, .25);
+        text-decoration: underline;
+        text-align: left;
+    }
+
+    &__title-img {
+        margin-top: 5px;
+        font-weight: bold;
+        font-size: 15px;
+
+    }
+
+    &__authors {
+        margin-top: 5px;
+        color: rgba(0, 0, 0, .25);
+    }
+
+
+}
