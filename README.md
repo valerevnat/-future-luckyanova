@@ -1,4 +1,4 @@
 
-Stack: React, TypeScript, MobX, Axios, Formik.
+Stack: React, TypeScript, MobX, Axios, Formik, SCSS
 ******
 Google books API
